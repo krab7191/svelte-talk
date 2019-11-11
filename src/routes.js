@@ -7,7 +7,7 @@ const routes = [
     component: Intro,
   },
   {
-    name: 'state',
+    name: '/state',
     component: State,
   },
 ];
