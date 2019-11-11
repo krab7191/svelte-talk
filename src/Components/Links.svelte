@@ -15,9 +15,23 @@
     <a href="http://sveltejs.com/">Svelte homepage</a>
   </li>
   <li>
+    <a href="https://sapper.svelte.dev/">Sapper homepage</a>
+  </li>
+  <li>
+    Intro to lifecycle hooks
+    <a href="https://reactgo.com/svelte-lifecycle-hooks-tutorial/">here</a>
+    and
+    <a href="https://flaviocopes.com/svelte-lifecycle-events/">here</a>
+  </li>
+  <li>
     <a
       href="https://css-tricks.com/what-i-like-about-writing-styles-with-svelte/">
       CSS tricks article about Svelte
+    </a>
+  </li>
+  <li>
+    <a href="https://flaviocopes.com/">
+      Flavio Copes homepage (the guy who writes about Svelte a lot)
     </a>
   </li>
   <li>

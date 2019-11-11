@@ -1,0 +1,39 @@
+<script>
+
+</script>
+
+<style>
+  li {
+    list-style-type: none;
+    padding-bottom: 24px;
+  }
+</style>
+
+<hr />
+<h2>What is Svelte?</h2>
+<ul>
+  <li>
+    Created by
+    <a href="https://github.com/Rich-Harris">Rich Harris</a>
+    , who is also the creator of
+    <a href="https://rollupjs.org/guide/en/">Rollup</a>
+  </li>
+  <li>"Svelte is a radical new approach to building user interfaces."</li>
+  <li>A "lightweight modern JavaScript library (4.57KB minified)"</li>
+  <li>
+    A compiler of sorts. Moves the work to a build step so you don't have to
+    serve a library to everyone's browser.
+  </li>
+  <li>
+    There is no 'virtual DOM' or 'shadow DOM'. It serves javascript which is
+    already supported by modern clients.
+  </li>
+  <li>No unintuitive way to manage and update state. Just write javascript.</li>
+  <li>
+    Comes with a context API for global state management, much like React.
+  </li>
+  <li>
+    Simple component system. Components are themselves the default export.
+  </li>
+  <li>Component-scoped CSS</li>
+</ul>
