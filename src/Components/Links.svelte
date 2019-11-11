@@ -3,35 +3,50 @@
 </script>
 
 <style>
-
+  ul {
+    list-style-type: none;
+  }
+  li {
+    padding: 10px;
+  }
 </style>
 
-<div>Obligatory links</div>
+<p>Useful Links:</p>
 <ul>
   <li>
-    <a href="https://svelte.dev/">Svelte developer page</a>
+    <a href="https://svelte.dev/">
+      Svelte developer page - https://svelte.dev/
+    </a>
   </li>
   <li>
-    <a href="http://sveltejs.com/">Svelte homepage</a>
+    <a href="http://sveltejs.com/">Svelte homepage - http://sveltejs.com/</a>
   </li>
   <li>
-    <a href="https://sapper.svelte.dev/">Sapper homepage</a>
+    <a href="https://sapper.svelte.dev/">
+      Sapper homepage - https://sapper.svelte.dev/
+    </a>
   </li>
   <li>
-    Intro to lifecycle hooks
-    <a href="https://reactgo.com/svelte-lifecycle-hooks-tutorial/">here</a>
+    Intro to lifecycle hooks -
+    <a href="https://reactgo.com/svelte-lifecycle-hooks-tutorial/">
+      https://reactgo.com/svelte-lifecycle-hooks-tutorial/
+    </a>
     and
-    <a href="https://flaviocopes.com/svelte-lifecycle-events/">here</a>
+    <a href="https://flaviocopes.com/svelte-lifecycle-events/">
+      https://flaviocopes.com/svelte-lifecycle-events/
+    </a>
   </li>
   <li>
     <a
       href="https://css-tricks.com/what-i-like-about-writing-styles-with-svelte/">
-      CSS tricks article about Svelte
+      CSS tricks article about Svelte -
+      https://css-tricks.com/what-i-like-about-writing-styles-with-svelte/
     </a>
   </li>
   <li>
     <a href="https://flaviocopes.com/">
-      Flavio Copes homepage (the guy who writes about Svelte a lot)
+      Flavio Copes homepage (a guy who writes about Svelte a lot) -
+      https://flaviocopes.com/
     </a>
   </li>
   <li>
@@ -41,9 +56,11 @@
     </a>
   </li>
   <li>
-    <a href="http://vanilla-js.com/">Vanilla JS</a>
+    <a href="http://vanilla-js.com/">Vanilla JS - http://vanilla-js.com/</a>
   </li>
   <li>
-    <a href="https://bundlephobia.com/">Bundlephobia</a>
+    <a href="https://bundlephobia.com/">
+      Bundlephobia - https://bundlephobia.com/
+    </a>
   </li>
 </ul>

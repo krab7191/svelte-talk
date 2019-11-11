@@ -5,9 +5,5 @@
   import Header from "./Components/Header.svelte";
 </script>
 
-<style>
-
-</style>
-
 <Header />
 <Router {routes} />

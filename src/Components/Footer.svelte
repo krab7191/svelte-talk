@@ -25,6 +25,7 @@
       </Navigate>
     {/if}
     {#if to}
+      <!-- Notice shorthand attribute -->
       <Navigate {to}>
         <button>
           Next!
