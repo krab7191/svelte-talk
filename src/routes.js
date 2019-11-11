@@ -1,5 +1,5 @@
 import Intro from './Pages/Intro.svelte';
-import About from './Pages/About.svelte';
+import State from './Pages/State.svelte';
 
 const routes = [
   {
@@ -7,8 +7,8 @@ const routes = [
     component: Intro,
   },
   {
-    name: 'about',
-    component: About,
+    name: 'state',
+    component: State,
   },
 ];
 
