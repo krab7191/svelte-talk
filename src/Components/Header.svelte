@@ -1,4 +1,7 @@
 <style>
+  header {
+    text-align: center;
+  }
   #logo {
     height: 45px;
     width: auto;
@@ -11,4 +14,5 @@
 <header>
   <img src="./assets/images/svelte-logo.png" alt="Svelte logo" id="logo" />
   <h1>Welcome to Svelte.js!</h1>
+  <hr />
 </header>
