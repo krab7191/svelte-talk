@@ -1,5 +1,4 @@
 <script>
-  // import { Navigate } from "svelte-router-spa";
   import { link } from "svelte-spa-router";
   import pageSequencer from "../utils";
   const { from, to } = pageSequencer();

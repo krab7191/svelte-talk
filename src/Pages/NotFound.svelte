@@ -1,7 +1,7 @@
 <script>
   import Footer from "../Components/Footer.svelte";
   function timeWalk() {
-    window.location.go(-2);
+    window.history.go(-2);
   }
 </script>
 
