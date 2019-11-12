@@ -1,22 +1,20 @@
-import { routes } from "./routes";
 
-
-const pageSequencer = () => {
+const pageSequencer = (routeObj) => {
   let { pathname, hash } = window.location;
   if (hash.length !== 0) {
     pathname = hash.substring(1);
   }
   let currentRouteIndex;
-  const keys = Object.keys(routes);
-  keys.pop();
-  keys.forEach((route, index) => {
+  const routes = Object.keys(routeObj);
+  routes.pop();
+  routes.forEach((route, index) => {
     if (route === pathname) {
       currentRouteIndex = index;
     }
   });
   return {
-    from: keys[currentRouteIndex - 1] ? keys[currentRouteIndex - 1] : null,
-    to: keys[currentRouteIndex + 1] ? keys[currentRouteIndex + 1] : null,
+    from: routes[currentRouteIndex - 1] ? routes[currentRouteIndex - 1] : null,
+    to: routes[currentRouteIndex + 1] ? routes[currentRouteIndex + 1] : null,
   }
 };
 
