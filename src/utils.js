@@ -4,14 +4,15 @@ import { routes } from "./routes";
 const pageSequencer = () => {
   const { pathname } = window.location;
   let currentRouteIndex;
-  routes.forEach((route, index) => {
-    if (route.name === pathname) {
+  const keys = Object.keys(routes);
+  keys.forEach((route, index) => {
+    if (route === pathname) {
       currentRouteIndex = index;
     }
   });
   return {
-    from: routes[currentRouteIndex - 1] ? routes[currentRouteIndex - 1].name : null,
-    to: routes[currentRouteIndex + 1] ? routes[currentRouteIndex + 1].name : null,
+    from: keys[currentRouteIndex - 1] ? keys[currentRouteIndex - 1].name : null,
+    to: keys[currentRouteIndex + 1] ? keys[currentRouteIndex + 1].name : null,
   }
 };
 

@@ -1,5 +1,6 @@
 <script>
-  import { Navigate } from "svelte-router-spa";
+  // import { Navigate } from "svelte-router-spa";
+  import { link } from "svelte-spa-router";
   import pageSequencer from "../utils";
   const { from, to } = pageSequencer();
 </script>
@@ -17,21 +18,20 @@
   <hr />
   <span>
     {#if from}
-      <Navigate to={from}>
+      <a href={from} use:link>
         <button>
           <i class="fa fa-arrow-left" />
           Back
         </button>
-      </Navigate>
+      </a>
     {/if}
     {#if to}
-      <!-- Notice shorthand attribute -->
-      <Navigate {to}>
+      <a href={to} use:link>
         <button>
           Next!
           <i class="fa fa-arrow-right" />
         </button>
-      </Navigate>
+      </a>
     {/if}
   </span>
 </footer>
