@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from "svelte";
+  import Prism from "prismjs";
   import Footer from "../Components/Footer.svelte";
   let code = `<script>\n  import Header from "../Components/Header.svelte";\n  const name ="Karsten";\n<`;
   code = code + `/script>\n\n<styl`;
@@ -6,6 +8,9 @@
   code =
     code +
     `<Header />\n<main id="main-content">\n  <p>A svelte component</p>\n  <p>My name is {name}</p>\n</main>`;
+  onMount(() => {
+    Prism.highlightAll();
+  });
 </script>
 
 <style>
