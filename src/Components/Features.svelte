@@ -31,4 +31,5 @@
     Simple component system. Components are themselves the default export.
   </li>
   <li>Component-scoped CSS</li>
+  <li>Webpack HMR support release in v3.0!</li>
 </ul>

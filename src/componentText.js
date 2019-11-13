@@ -52,23 +52,26 @@ function pe(t) {
     return {
         c() {
             n = c("main"), 
-            r = c("p"), 
-            s = u("Counter is at "), 
+            r = c("p"),               // Alias for document.createElement
+            s = u("Counter is at "),  // Alias for document.createTextNode
             g = u(t.counter), 
-            h = d(), 
+            h = d(),
             (m = c("button")).textContent = "Up!", 
             v = d(), 
             (b = c("button")).textContent = "Down!", 
             p(r, "class", "svelte-eogs2z"), 
             p(n, "id", "main-content"), 
             p(n, "class", "svelte-eogs2z"), 
-            y = [f(m, "click", t.increment), 
-            f(b, "click", t.decrement)]
+            y = [f(m, "click", t.increment), f(b, "click", t.decrement)]
+            //   function f(e, t, n) {
+            //     null == n
+            //       ? e.removeAttribute(t)
+            //       : e.getAttribute(t) !== n && e.setAttribute(t, n)
         },
         m(e, t) {
             i(e, n, t), 
             o(n, r), 
-            o(r, s), 
+            o(r, s),  // Wrapper function for r.appendChild(s)
             o(r, g), 
             o(n, h), 
             o(n, m), 
@@ -124,6 +127,48 @@ function pe(t) {
     <p class="svelte-w5bjo0">I'm a green paragraph!!</p>
   </main>
 </div>  
+`,
+  state6: `
+<script>
+	export let status;
+	export let error;
+
+	const dev = process.env.NODE_ENV === 'development';
+</script>
+
+<style>
+	h1, p {
+		margin: 0 auto;
+	}
+
+	h1 {
+		font-size: 2.8em;
+		font-weight: 700;
+		margin: 0 0 0.5em 0;
+	}
+
+	p {
+		margin: 1em auto;
+	}
+
+	@media (min-width: 480px) {
+		h1 {
+			font-size: 4em;
+		}
+	}
+</style>
+
+<svelte:head>
+	<title>{status}</title>
+</svelte:head>
+
+<h1>{status}</h1>
+
+<p>{error.message}</p>
+
+{#if dev && error.stack}
+	<pre>{error.stack}</pre>
+{/if}  
 `,
 };
 
