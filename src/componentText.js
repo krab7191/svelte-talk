@@ -49,10 +49,29 @@ function pe(t) {
     let n, r, s, g, h, m, v, b, y;
     return {
         c() {
-            n = c("main"), r = c("p"), s = u("Counter is at "), g = u(t.counter), h = d(), (m = c("button")).textContent = "Up!", v = d(), (b = c("button")).textContent = "Down!", p(r, "class", "svelte-eogs2z"), p(n, "id", "main-content"), p(n, "class", "svelte-eogs2z"), y = [f(m, "click", t.increment), f(b, "click", t.decrement)]
+            n = c("main"), 
+            r = c("p"), 
+            s = u("Counter is at "), 
+            g = u(t.counter), 
+            h = d(), 
+            (m = c("button")).textContent = "Up!", 
+            v = d(), 
+            (b = c("button")).textContent = "Down!", 
+            p(r, "class", "svelte-eogs2z"), 
+            p(n, "id", "main-content"), 
+            p(n, "class", "svelte-eogs2z"), 
+            y = [f(m, "click", t.increment), 
+            f(b, "click", t.decrement)]
         },
         m(e, t) {
-            i(e, n, t), o(n, r), o(r, s), o(r, g), o(n, h), o(n, m), o(n, v), o(n, b)
+            i(e, n, t), 
+            o(n, r), 
+            o(r, s), 
+            o(r, g), 
+            o(n, h), 
+            o(n, m), 
+            o(n, v), 
+            o(n, b)
         },
         p(e, t) {
             e.counter && function(e, t) {
@@ -66,7 +85,7 @@ function pe(t) {
         }
     }
 }  
-`
+`,
 };
 
 export default text;
