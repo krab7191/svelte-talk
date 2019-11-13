@@ -3,12 +3,7 @@
   import Prism from "prismjs";
   import State1 from "../Components/State1.svelte";
   import Footer from "../Components/Footer.svelte";
-  let code = `<script>\n  import Header from "../Components/Header.svelte";\n  const name ="Karsten";\n<`;
-  code = code + `/script>\n\n<styl`;
-  code = code + `e>\n  p {\n    color: purple;\n  }\n</style>\n\n`;
-  code =
-    code +
-    `<Header />\n<main id="main-content">\n  <p>A svelte component</p>\n  <p>My name is {name}</p>\n</main>`;
+  import text from "../componentText";
   onMount(() => {
     Prism.highlightAll();
   });
@@ -26,9 +21,11 @@
   <h2>The Svelte File</h2>
   <div class="code-box">
     <pre>
-      <code class="language-js">{code}</code>
+      <code class="language-js">{text.state1}</code>
     </pre>
-    <State1 />
+    <div id="component-box">
+      <State1 />
+    </div>
   </div>
 </main>
 <Footer />

@@ -1,6 +1,8 @@
+const text = {
+  state1: `
 <script>
-  import Header from "./Header.svelte";
-  const name = "Karsten";
+  import Header from "../Components/Header.svelte";
+  const name ="Karsten";
 </script>
 
 <style>
@@ -13,4 +15,7 @@
 <main id="main-content">
   <p>A svelte component</p>
   <p>My name is {name}</p>
-</main>
+</main>`,
+};
+
+export default text;
