@@ -21,7 +21,7 @@
   <h2>The Svelte File</h2>
   <div class="code-box">
     <pre>
-      <code class="language-js">{text.state1}</code>
+      <code class="language-html">{text.state1}</code>
     </pre>
     <div id="component-box">
       <State1 />

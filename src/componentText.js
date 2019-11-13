@@ -17,6 +17,7 @@ const text = {
   <p>My name is {name}</p>
 </main>`,
   state2: `
+<!-- Source code -->
 <script>
   let counter = 0;
   function increment() {
@@ -45,6 +46,7 @@ const text = {
 </main>  
   `,
   state3: `
+<!-- Compiled (and then un-minified) code -->
 function pe(t) {
     let n, r, s, g, h, m, v, b, y;
     return {
@@ -85,6 +87,43 @@ function pe(t) {
         }
     }
 }  
+`,
+  state4: `
+<!-- Source code -->
+
+<!-- First Component -->
+<style>
+  p {
+    color: blue;
+  }
+</style>
+
+<main id="main-content">
+  <p>I'm a blue paragraph!!</p>
+</main>
+
+<!-- Second Component -->
+<style>
+  p {
+    color: green;
+  }
+</style>
+
+<main id="main-content">
+  <p>I'm a green paragraph!!</p>
+</main>
+
+`,
+  state5: `
+<!-- Compiled code -->
+<div id="component-box">
+  <main id="main-content">
+    <p class="svelte-ru5ed3">I'm a blue paragraph!!</p>
+  </main>
+  <main id="main-content">
+    <p class="svelte-w5bjo0">I'm a green paragraph!!</p>
+  </main>
+</div>  
 `,
 };
 
