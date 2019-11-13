@@ -14,7 +14,12 @@
     <a href="https://rollupjs.org/guide/en/">Rollup</a>
   </li>
   <li>"Svelte is a radical new approach to building user interfaces."</li>
-  <li>A "lightweight modern JavaScript library (4.57KB minified)"</li>
+  <li>
+    A "lightweight modern JavaScript library (4.57KB minified)"
+    <a href="https://bundlephobia.com/result?p=svelte@3.14.0" target="_blank">
+      (3kb ?)
+    </a>
+  </li>
   <li>
     A compiler of sorts. Moves the work to a build step so you don't have to
     serve a library to everyone's browser.
