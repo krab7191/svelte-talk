@@ -2,7 +2,7 @@
   import SvelteFile from "../Components/SvelteFile.svelte";
   import Footer from "../Components/Footer.svelte";
   import Code from "../Components/Code.svelte";
-  import { svelteFileText } from "../componentText";
+  import { svelteFileText } from "../data/componentText";
 </script>
 
 <main id="main-content">

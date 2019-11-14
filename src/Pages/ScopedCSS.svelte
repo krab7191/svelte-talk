@@ -6,7 +6,7 @@
   import {
     paragraphComponentText,
     paragraphComponentTextCompiled
-  } from "../componentText";
+  } from "../data/componentText";
 </script>
 
 <main id="main-content">

@@ -1,5 +1,11 @@
 <script>
-  const code = "<code>";
+  const disadvantages = [
+    "Newer, still evolving ecosystem: Maybe not the best choice for huge 'enterprise' projects.",
+    "IE support is weak. IE 11 requires polyfills. (Who cares)",
+    `Svelte Parser issues with string literals and
+    <code>
+    blocks.`
+  ];
 </script>
 
 <style>
@@ -9,16 +15,9 @@
 </style>
 
 <ul>
-  <li>
-    Newer, still evolving ecosystem: Maybe not the best choice for huge
-    'enterprise' projects.
-  </li>
-  <li>IE support is weak. IE 11 requires polyfills. (Who cares)</li>
-  <li>
-    Svelte Parser issues with string literals and
-    <code>{code}</code>
-    blocks.
-  </li>
+  {#each disadvantages as node}
+    <li>{node}</li>
+  {/each}
   <li>
     No JS in CSS, dynamic CSS must be done inline.
     <a

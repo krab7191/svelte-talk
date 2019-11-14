@@ -1,11 +1,5 @@
-import Intro from './Pages/Intro.svelte';
-import SvelteFile from './Pages/SvelteFile.svelte';
-import State from './Pages/State.svelte';
-import ScopedCSS from './Pages/ScopedCSS.svelte';
-import Sapper from './Pages/Sapper.svelte';
-import Disadvantages from './Pages/Disadvantages.svelte';
-import End from './Pages/End.svelte';
-import NotFound from './Pages/NotFound.svelte';
+import pages from "./Pages";
+const { Intro, SvelteFile, State, ScopedCSS, Sapper, Disadvantages, End, NotFound } = pages;
 
 const routes = {
   '/': Intro,

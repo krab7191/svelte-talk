@@ -18,4 +18,6 @@ const pageSequencer = (routeObj) => {
   }
 };
 
-export default pageSequencer;
+module.exports = {
+  pageSequencer: pageSequencer,
+}

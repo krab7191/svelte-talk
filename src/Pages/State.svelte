@@ -5,7 +5,7 @@
   import {
     stateComponentText,
     stateComponentTextCompiled
-  } from "../componentText";
+  } from "../data/componentText";
 </script>
 
 <main id="main-content">

@@ -1,7 +1,7 @@
 <script>
   import Code from "../Components/Code.svelte";
   import Footer from "../Components/Footer.svelte";
-  import { errorFileText } from "../componentText";
+  import { errorFileText } from "../data/componentText";
 </script>
 
 <style>
