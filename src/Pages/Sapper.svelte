@@ -2,6 +2,7 @@
   import Code from "../Components/Code.svelte";
   import Footer from "../Components/Footer.svelte";
   import { errorFileText } from "../data/componentText";
+  import features from "../data/sapperFeatures";
 </script>
 
 <style>
@@ -28,12 +29,9 @@
 <main id="main-content">
   <h2>A quick introduction to S(velte)APP(mak)ER</h2>
   <ul>
-    <li>"The next small thing in web development"</li>
-    <li>A web-application framework, inspired by Next.js</li>
-    <li>But it uses Svelte instead of React</li>
-    <li>Server side rendering, code splitting, bundling, lazy-loading, etc.</li>
-    <li>Bundles are 'hydrated' client side</li>
-    <li>Not yet at version 1.0</li>
+    {#each features as text}
+      <li>{text}</li>
+    {/each}
   </ul>
   <img
     src="./assets/images/sapper.png"
