@@ -1,5 +1,5 @@
 const text = {
-  state1: `
+  svelteFileText: `
 <script>
   import Header from "../Components/Header.svelte";
   const name ="Karsten";
@@ -16,7 +16,7 @@ const text = {
   <p>A svelte component</p>
   <p>My name is {name}</p>
 </main>`,
-  state2: `
+  stateComponentText: `
 <!-- Source code -->
 <script>
   let counter = 0;
@@ -45,7 +45,7 @@ const text = {
   <button on:click={decrement}>Down!</button>
 </main>  
   `,
-  state3: `
+  stateComponentTextCompiled: `
 <!-- Compiled (and then un-minified) code -->
 function pe(t) {
     let n, r, s, g, h, m, v, b, y;
@@ -91,7 +91,7 @@ function pe(t) {
     }
 }  
 `,
-  state4: `
+  paragraphComponentText: `
 <!-- Source code -->
 
 <!-- First Component -->
@@ -117,7 +117,7 @@ function pe(t) {
 </main>
 
 `,
-  state5: `
+  paragraphComponentTextCompiled: `
 <!-- Compiled code -->
 <div id="component-box">
   <main id="main-content">
@@ -128,7 +128,7 @@ function pe(t) {
   </main>
 </div>  
 `,
-  state6: `
+  errorFileText: `
 <script>
 	export let status;
 	export let error;

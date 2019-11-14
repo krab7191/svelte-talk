@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
   import Prism from "prismjs";
-  import State3 from "../Components/State3.svelte";
-  import State4 from "../Components/State4.svelte";
+  import BlueParagraph from "../Components/BlueParagraph.svelte";
+  import GreenParagraph from "../Components/GreenParagraph.svelte";
   import Footer from "../Components/Footer.svelte";
   import text from "../componentText";
   onMount(() => {
@@ -14,16 +14,16 @@
   <h2>Component Scoped CSS</h2>
   <div class="code-box">
     <pre>
-      <code class="language-html">{text.state4}</code>
+      <code class="language-html">{text.paragraphComponentText}</code>
     </pre>
     <div id="component-box">
-      <State3 />
-      <State4 />
+      <BlueParagraph />
+      <GreenParagraph />
     </div>
   </div>
   <div class="code-box">
     <pre>
-      <code class="language-html">{text.state5}</code>
+      <code class="language-html">{text.paragraphComponentTextCompiled}</code>
     </pre>
   </div>
 </main>

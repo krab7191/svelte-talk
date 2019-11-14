@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
   import Prism from "prismjs";
-  import State1 from "../Components/State1.svelte";
+  import SvelteFile from "../Components/SvelteFile.svelte";
   import Footer from "../Components/Footer.svelte";
   import text from "../componentText";
   onMount(() => {
@@ -13,10 +13,10 @@
   <h2>The Svelte File</h2>
   <div class="code-box">
     <pre>
-      <code class="language-html">{text.state1}</code>
+      <code class="language-html">{text.svelteFileText}</code>
     </pre>
     <div id="component-box">
-      <State1 />
+      <SvelteFile />
     </div>
   </div>
 </main>

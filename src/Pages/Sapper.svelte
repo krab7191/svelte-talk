@@ -45,7 +45,7 @@
     class="sapper-image" />
   <div class="code-box">
     <pre>
-      <code class="language-html">{text.state6}</code>
+      <code class="language-html">{text.errorFileText}</code>
     </pre>
     <img
       src="./assets/images/_error.png"
