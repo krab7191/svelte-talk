@@ -2,7 +2,7 @@
   li {
     padding-bottom: 24px;
   }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 375px) {
     ul {
       margin: 5px;
     }

@@ -29,7 +29,7 @@ ul {
 	list-style-type: none !important;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 	div.code-box {
 		margin: 0 auto;
 		width: 95%;

@@ -5,7 +5,7 @@
 </script>
 
 <style>
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 375px) {
     img {
       width: 280px;
       height: auto;

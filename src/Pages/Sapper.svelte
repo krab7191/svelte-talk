@@ -20,7 +20,7 @@
     width: 680px;
     height: auto;
   }
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 375px) {
     img.error-image {
       max-width: 300px;
       height: auto;
