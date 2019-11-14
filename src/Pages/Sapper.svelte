@@ -1,11 +1,7 @@
 <script>
-  import { onMount } from "svelte";
-  import Prism from "prismjs";
+  import Code from "../Components/Code.svelte";
   import Footer from "../Components/Footer.svelte";
-  import text from "../componentText";
-  onMount(() => {
-    Prism.highlightAll();
-  });
+  import { errorFileText } from "../componentText";
 </script>
 
 <style>
@@ -44,9 +40,7 @@
     alt="A screenshot of a sapper project in VScode"
     class="sapper-image" />
   <div class="code-box">
-    <pre>
-      <code class="language-html">{text.errorFileText}</code>
-    </pre>
+    <Code text={errorFileText} />
     <img
       src="./assets/images/_error.png"
       alt="A 500 stacktrace error"

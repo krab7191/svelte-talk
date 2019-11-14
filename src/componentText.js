@@ -1,4 +1,4 @@
-const text = {
+module.exports = {
   svelteFileText: `
 <script>
   import Header from "../Components/Header.svelte";
@@ -172,4 +172,3 @@ function pe(t) {
 `,
 };
 
-export default text;
