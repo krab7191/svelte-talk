@@ -3,9 +3,6 @@
 </script>
 
 <style>
-  ul {
-    list-style-type: none;
-  }
   li {
     padding: 10px;
   }

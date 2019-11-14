@@ -1,7 +1,11 @@
 <style>
   li {
-    list-style-type: none;
     padding-bottom: 24px;
+  }
+  @media only screen and (max-width: 320px) {
+    ul {
+      margin: 5px;
+    }
   }
 </style>
 

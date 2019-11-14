@@ -9,14 +9,6 @@
 </script>
 
 <style>
-  div.code-box {
-    margin: 0 auto;
-    width: 50%;
-    max-width: 680px;
-  }
-  ul {
-    list-style-type: none;
-  }
   li {
     padding: 10px;
   }
@@ -27,6 +19,12 @@
   img.error-image {
     width: 680px;
     height: auto;
+  }
+  @media only screen and (max-width: 320px) {
+    img.error-image {
+      max-width: 300px;
+      height: auto;
+    }
   }
 </style>
 

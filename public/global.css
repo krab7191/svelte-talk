@@ -19,6 +19,26 @@ div#component-box {
 	border-radius: 8px;
 }
 
+div.code-box {
+	margin: 0 auto;
+	width: 50%;
+	max-width: 680px;
+}
+
+ul {
+	list-style-type: none !important;
+}
+
+@media only screen and (max-width: 320px) {
+	div.code-box {
+		margin: 0 auto;
+		width: 95%;
+	}
+	ul {
+		padding: 0;
+	}
+}
+
 #main-content {
 	flex: 1 0 auto;
 	text-align: center;

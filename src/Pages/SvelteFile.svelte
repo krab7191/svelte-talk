@@ -9,14 +9,6 @@
   });
 </script>
 
-<style>
-  div.code-box {
-    margin: 0 auto;
-    width: 50%;
-    max-width: 680px;
-  }
-</style>
-
 <main id="main-content">
   <h2>The Svelte File</h2>
   <div class="code-box">
