@@ -21,21 +21,19 @@ div#component-box {
 
 div.code-box {
 	margin: 0 auto;
-	width: 50%;
-	max-width: 680px;
+	width: 75%;
+	max-width: 768px;
 }
 
 ul {
 	list-style-type: none !important;
+	padding: 0;
 }
 
 @media only screen and (max-width: 375px) {
 	div.code-box {
 		margin: 0 auto;
 		width: 95%;
-	}
-	ul {
-		padding: 0;
 	}
 }
 

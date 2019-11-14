@@ -17,7 +17,8 @@
     height: auto;
   }
   img.error-image {
-    width: 680px;
+    width: 75%;
+    max-width: 768px;
     height: auto;
   }
   @media only screen and (max-width: 375px) {
