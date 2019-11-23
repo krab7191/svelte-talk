@@ -1,8 +1,22 @@
 {
-  "name": "Svelte!",
-  "theme_color": "#ffffff",
-  "background_color": "#E93A1A",
+  "short_name": "Svelte!",
+  "name": "Introduction to Svelte.js",
+  "description": "An introduction to the features of svelte / svelte js / Svelte.js and Sapper, using this site's source code to demonstrate components, props, and state.",
   "icons": [
-    "./assets/images/icon-512.png"
-  ]
+    {
+      "src": "./assets/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#E93A1A",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
 }
