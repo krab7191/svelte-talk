@@ -6,7 +6,7 @@
 
 <style>
   @media only screen and (max-width: 375px) {
-    img {
+    video {
       width: 280px;
       height: auto;
     }
@@ -15,9 +15,11 @@
 
 <main id="main-content">
   <Features />
-  <img
-    src="https://media.giphy.com/media/l2JecKRSx8ojmh51S/giphy.gif"
-    alt="Simpsons Mr. Burns gif" />
+  <video autoplay loop>
+    <source src="./assets/simpsons-svelte.mp4" type="video/mp4" />
+    <source src="./assets/simpsons-svelte.ogg" type="video/ogg" />
+    Your browser does not support html5 video.
+  </video>
   <p>
     Source code at
     <a href="https://github.com/krab7191/svelte-talk">
