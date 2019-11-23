@@ -15,7 +15,7 @@
 
 <main id="main-content">
   <Features />
-  <video autoplay loop>
+  <video autoplay loop muted>
     <source src="./assets/video/simpsons-svelte.mp4" type="video/mp4" />
     <source src="./assets/video/simpsons-svelte.ogg" type="video/ogg" />
     Your browser does not support html5 video.
