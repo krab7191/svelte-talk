@@ -27,6 +27,19 @@
 			target="_blank" rel="noopener noreferrer">PWA</a>
 		and requires JavaScript to render properly.
 	</noscript>
+	<script>
+		(function () {
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.register('/sw.js').then(function (registration) {
+					// Registration was successful
+					console.log('ServiceWorker registered with scope: ', registration.scope);
+				}, function (err) {
+					// registration failed :(
+					console.log('ServiceWorker registration failed: ', err);
+				});
+			}
+		})();
+	</script>
 </body>
 
 </html>
