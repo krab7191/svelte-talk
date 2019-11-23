@@ -16,8 +16,8 @@
 <main id="main-content">
   <Features />
   <video autoplay loop>
-    <source src="./assets/simpsons-svelte.mp4" type="video/mp4" />
-    <source src="./assets/simpsons-svelte.ogg" type="video/ogg" />
+    <source src="./assets/video/simpsons-svelte.mp4" type="video/mp4" />
+    <source src="./assets/video/simpsons-svelte.ogg" type="video/ogg" />
     Your browser does not support html5 video.
   </video>
   <p>
