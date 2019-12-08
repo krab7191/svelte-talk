@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "prismjs": "^1.17.1",
+    "serialize-javascript": "^2.1.1",
     "sirv-cli": "^0.4.4",
     "svelte-spa-router": "^1.3.0"
   },
