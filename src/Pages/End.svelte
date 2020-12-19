@@ -14,7 +14,7 @@
   <h1>Thanks!</h1>
   <Links />
   <hr />
-  <p>Karsten Rabe 2019</p>
+  <p>Karsten Rabe; 13 November, 2019</p>
   <span>
     <a href="https://github.com/krab7191">
       <i class="fa fa-github-square" />

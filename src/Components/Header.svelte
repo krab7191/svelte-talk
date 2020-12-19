@@ -15,4 +15,5 @@
   <img src="./assets/images/svelte-logo.png" alt="Svelte logo" id="logo" />
   <h1>Welcome to Svelte.js!</h1>
   <hr />
+  <p>( 13 November, 2019 )</p>
 </header>
