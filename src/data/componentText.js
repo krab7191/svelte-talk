@@ -12,7 +12,7 @@ module.exports = {
 </style>
 
 <Header />
-<main id="main-content">
+<main>
   <p>A svelte component</p>
   <p>My name is {name}</p>
 </main>`,
@@ -29,7 +29,7 @@ module.exports = {
 </script>
 
 <style>
-  main#main-content {
+  main#main-counter {
     background-color: lightseagreen;
     padding: 15px;
     border-radius: 8px;
@@ -39,7 +39,7 @@ module.exports = {
   }
 </style>
 
-<main id="main-content">
+<main id="main-counter">
   <p>Counter is at {counter}</p>
   <button on:click={increment}>Up!</button>
   <button on:click={decrement}>Down!</button>
@@ -60,7 +60,7 @@ function pe(t) {
             v = d(), 
             (b = c("button")).textContent = "Down!", 
             p(r, "class", "svelte-eogs2z"), 
-            p(n, "id", "main-content"), 
+            p(n, "id", "main-counter"), 
             p(n, "class", "svelte-eogs2z"), 
             y = [f(m, "click", t.increment), f(b, "click", t.decrement)]
             //   function f(e, t, n) {
@@ -101,7 +101,7 @@ function pe(t) {
   }
 </style>
 
-<main id="main-content">
+<main>
   <p>I'm a blue paragraph!!</p>
 </main>
 
@@ -112,7 +112,7 @@ function pe(t) {
   }
 </style>
 
-<main id="main-content">
+<main>
   <p>I'm a green paragraph!!</p>
 </main>
 
@@ -120,10 +120,10 @@ function pe(t) {
   paragraphComponentTextCompiled: `
 <!-- Compiled code -->
 <div id="component-box">
-  <main id="main-content">
+  <main>
     <p class="svelte-ru5ed3">I'm a blue paragraph!!</p>
   </main>
-  <main id="main-content">
+  <main>
     <p class="svelte-w5bjo0">I'm a green paragraph!!</p>
   </main>
 </div>  

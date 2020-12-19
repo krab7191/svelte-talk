@@ -5,6 +5,6 @@
 </style>
 
 <!-- First Component -->
-<main id="main-content">
+<main>
   <p>I'm a blue paragraph!!</p>
 </main>

@@ -9,7 +9,7 @@
 </script>
 
 <style>
-  main#main-content {
+  main#main-counter {
     background-color: lightseagreen;
     padding: 15px;
     border-radius: 8px;
@@ -19,7 +19,7 @@
   }
 </style>
 
-<main id="main-content">
+<main id="main-counter">
   <p>Counter is at {counter}</p>
   <button on:click={increment}>Up!</button>
   <button on:click={decrement}>Down!</button>

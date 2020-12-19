@@ -10,7 +10,7 @@
 </style>
 
 <Header />
-<main id="main-content">
+<main>
   <p>A svelte component</p>
   <p>My name is {name}</p>
 </main>
